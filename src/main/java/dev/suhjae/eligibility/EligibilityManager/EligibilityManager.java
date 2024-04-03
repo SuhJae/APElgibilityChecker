@@ -17,8 +17,15 @@ public class EligibilityManager {
         return true;
     }
 
-    private ArrayList<Course> getEligibleCourses(Student student) {
-        return null;
+    private ArrayList<Course> getEligibleCourses(Student students) {
+        for (Student student: students){
+            for (Course apCourse: apCourses){
+                if (checkCourseElegibility(student,apCourse)){
+                    apCourses.add(apCourse);
+                }
+            }
+        }
+        return apCourses;
     }
 
     EligibilityManager(CourseManager courseManager, StudentManager studentManager) {
