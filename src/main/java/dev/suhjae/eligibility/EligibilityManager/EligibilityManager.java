@@ -18,8 +18,12 @@ public class EligibilityManager {
     }
 
     private ArrayList<Course> getEligibleCourses(Student student) {
-        return null;
-    }
+       for (Course apCourse: apCourses){
+           if (checkCourseElegibility(student, apCourse)){
+               apCourses.add(apCourse);
+           }
+       }
+       return apCourses;
 
     EligibilityManager(CourseManager courseManager, StudentManager studentManager) {
         this.courseManager = courseManager;
