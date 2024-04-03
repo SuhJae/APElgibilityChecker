@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad0d9315-8891-4338-96a1-10cef2796be6" name="Changes" comment="&quot;March 13th meeting&quot;" />
+    <list default="true" id="ad0d9315-8891-4338-96a1-10cef2796be6" name="Changes" comment="getEligibleCourses">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/suhjae/eligibility/EligibilityManager/EligibilityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/eligibility/EligibilityManager/EligibilityManager.java" afterDir="false" />
+    </list>
     <list id="2c811972-9635-4329-ad07-9c6bac3c24f3" name="Changes by hyerinshin" comment="" />
     <list id="0d9249fb-b997-4802-9cec-d670ab3abb58" name="Changes by jhchoi25" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711954273940</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="getEligibleCourses">
+      <option name="closed" value="true" />
+      <created>1712123837058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712123837058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,8 +200,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="edited" />
     <MESSAGE value="&quot;March 13th meeting&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;March 13th meeting&quot;" />
+    <MESSAGE value="getEligibleCourses" />
+    <option name="LAST_COMMIT_MESSAGE" value="getEligibleCourses" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
