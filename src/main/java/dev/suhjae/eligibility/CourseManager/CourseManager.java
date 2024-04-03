@@ -1,4 +1,4 @@
-package dev.suhjae.elgibility.CourseManager;
+package dev.suhjae.eligibility.CourseManager;
 
 import java.util.ArrayList;
 public class CourseManager {

@@ -1,9 +1,9 @@
-package dev.suhjae.elgibility.EligibilityManager;
+package dev.suhjae.eligibility.EligibilityManager;
 
-import dev.suhjae.elgibility.CourseManager.Course;
-import dev.suhjae.elgibility.CourseManager.CourseManager;
-import dev.suhjae.elgibility.StudentManager.Student;
-import dev.suhjae.elgibility.StudentManager.StudentManager;
+import dev.suhjae.eligibility.CourseManager.Course;
+import dev.suhjae.eligibility.CourseManager.CourseManager;
+import dev.suhjae.eligibility.StudentManager.Student;
+import dev.suhjae.eligibility.StudentManager.StudentManager;
 
 import java.util.ArrayList;
 
@@ -21,9 +21,9 @@ public class EligibilityManager {
         return null;
     }
 
-    EligibilityManager(CourseManager cm, StudentManager sm) {
-        this.courseManager = cm;
-        this.studentManager = sm;
+    EligibilityManager(CourseManager courseManager, StudentManager studentManager) {
+        this.courseManager = courseManager;
+        this.studentManager = studentManager;
     }
 
 

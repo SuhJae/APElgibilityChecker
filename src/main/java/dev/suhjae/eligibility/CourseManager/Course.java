@@ -1,8 +1,7 @@
-package dev.suhjae.elgibility.CourseManager;
+package dev.suhjae.eligibility.CourseManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Course.java

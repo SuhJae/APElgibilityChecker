@@ -1,4 +1,4 @@
-package dev.suhjae.elgibility.Panels;
+package dev.suhjae.eligibility.Panels;
 
 import javax.swing.*;
 import javax.swing.event.TableModelEvent;
@@ -8,13 +8,20 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GradePanel extends MainPanel {
-    public GradePanel(String[][] data) {
+public class CoursePanel extends MainPanel {
+    public CoursePanel(String[][] data) {
         super(data);
         this.setFocusable(false);
 
-        tableModel = new DefaultTableModel();
+        tableModel = new DefaultTableModel() {
+            @Override
+            public boolean isCellEditable(int row, int column) {
+                return false;
+            }
+        };
+
         table = new JTable(tableModel);
+        table.getTableHeader().setReorderingAllowed(false);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         table.setFocusable(false);
 

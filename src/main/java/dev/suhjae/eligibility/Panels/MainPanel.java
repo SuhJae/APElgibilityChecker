@@ -1,8 +1,6 @@
-package dev.suhjae.elgibility.Panels;
+package dev.suhjae.eligibility.Panels;
 
 import javax.swing.*;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
 import javax.swing.table.DefaultTableModel;
 
 public class MainPanel extends JPanel {

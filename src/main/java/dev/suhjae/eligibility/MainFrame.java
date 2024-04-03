@@ -1,10 +1,10 @@
-package dev.suhjae.elgibility;
+package dev.suhjae.eligibility;
 
-import dev.suhjae.elgibility.CourseManager.CourseManager;
-import dev.suhjae.elgibility.Panels.CoursePanel;
-import dev.suhjae.elgibility.Panels.GradePanel;
-import dev.suhjae.elgibility.Panels.TestPanel;
-import dev.suhjae.elgibility.StudentManager.StudentManager;
+import dev.suhjae.eligibility.CourseManager.CourseManager;
+import dev.suhjae.eligibility.Panels.CoursePanel;
+import dev.suhjae.eligibility.Panels.GradePanel;
+import dev.suhjae.eligibility.Panels.TestPanel;
+import dev.suhjae.eligibility.StudentManager.StudentManager;
 //import dev.suhjae.elgibility.EligibilityManager.EligibilityManager;
 
 import javax.swing.*;

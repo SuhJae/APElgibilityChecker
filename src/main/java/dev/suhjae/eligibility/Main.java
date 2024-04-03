@@ -1,4 +1,4 @@
-package dev.suhjae.elgibility;
+package dev.suhjae.eligibility;
 
 import javax.swing.*;
 

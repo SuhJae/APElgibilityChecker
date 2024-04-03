@@ -1,4 +1,4 @@
-package dev.suhjae.elgibility.Panels;
+package dev.suhjae.eligibility.Panels;
 
 import javax.swing.*;
 import javax.swing.event.TableModelEvent;
